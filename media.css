@@ -1,0 +1,42 @@
+@media(max-width:800px){
+  #grid{
+    display: block;
+  }
+  #목차,ol{
+    border-right: none;
+  }
+  h1{
+    border-bottom: none;
+  }
+}
+#content{
+  padding: 10px;
+}
+h1{
+  font-size: 50px;
+  text-align: center;
+  border-bottom:1px solid gray;
+  margin:0;
+  padding:20px;
+}
+body{
+  background-color:#E4E724;
+  margin:0;
+}
+a{
+  color:black;
+  text-decoration: none;
+}
+#목차,ol{
+  border-right: 1px solid gray;
+  width:150px;
+  margin:0;
+}
+#목차{
+  padding:20px;
+  margin-top:0;text-align:center;
+ }
+#grid{
+  display:grid;
+  grid-template-columns: 190px 1fr;
+}
